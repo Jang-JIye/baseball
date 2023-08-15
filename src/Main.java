@@ -25,13 +25,9 @@ public class Main {
                 randomNum2 = random.nextInt(10);
                 randomNum3 = random.nextInt(10);
                 if (randomNum1 != randomNum2 && randomNum2 != randomNum3 && randomNum1 != randomNum3) {
-//                    randomNum1 = random.nextInt(10);
-//                    randomNum2 = random.nextInt(10);
-//                    randomNum3 = random.nextInt(10);
+                    System.out.println("컴퓨터가 숫자를 생성하였습니다. 답을 맞춰보세요!");
+                    break;
                 }
-                System.out.println("컴퓨터가 숫자를 생성하였습니다. 답을 맞춰보세요!");
-                break;
-                //int[] Number = {randomNum1, randomNum2, randomNum3};
             }
 
             while (true) {
@@ -86,7 +82,7 @@ public class Main {
             if (choice.equalsIgnoreCase("Y")) {
                 break;
             }
-            sc.close();
         }
+        sc.close();
     }
 }
